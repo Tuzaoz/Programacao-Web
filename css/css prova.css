@@ -1,0 +1,6 @@
+input{
+    display: block;
+}
+input[type="range"]{
+    display: inline;
+}
