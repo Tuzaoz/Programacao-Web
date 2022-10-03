@@ -1,7 +1,11 @@
 
         body{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-image: url(https://static.vecteezy.com/system/resources/previews/007/395/007/original/outlined-school-supplies-seamless-pattern-free-vector.jpg);
+            padding-left: 20px;
+            padding-right: 20px
         }
+
         input{
             margin-bottom: 10px;
             border-radius: 4px;
@@ -13,9 +17,8 @@
             background-color: lightgray;
             padding-inline: 50px;
             padding-block: 50px;
-            display: inline-block;
-            text-align: center;
-            margin-top: 100px;
+            margin-top: -16px;
+            margin-bottom: 30px;
             border-style: solid;
             border-width: medium;
             border-radius: 20px;
@@ -38,6 +41,7 @@
             border-radius: 10px;
             background-color: orangered;
             margin-top: 20px;
+           
         }
         .grow { 
             transition: all .2s ease-in-out; }
@@ -48,3 +52,38 @@
         .cabecalho{
             width: 300px;
         }
+
+        .botao-enviar{
+            text-align: center;
+        }
+
+        .topo{
+            text-align: center;
+            margin-top: 50px;
+            background-image: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 2),
+            rgba(0, 0, 255, 1)
+            );
+            padding-bottom: 20px;
+            border-radius: 30px , 30px;
+        }
+
+        .mtm{
+            background-color: rgba(210, 105, 30, 0.397);
+        }
+
+        .img{
+            text-align: center;
+        }
+
+        .prt{
+            background-color: #64169883;
+
+        }
+        fieldset{
+            border-radius: 20px;
+            margin-bottom: 20px;
+
+        }
+

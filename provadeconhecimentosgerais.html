@@ -8,8 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Prova de Conhecimentos Gerais</h1>
-    <p> Responda todas as questões, utilize rascunhos em papel para realizar os ccáculos. Os Rascunhos serão recolhidos pela professora após a quarentena! </p>
+    <div class="topo">
+        <h1>Prova de Conhecimentos Gerais</h1>
+        <p> Responda todas as questões, utilize rascunhos em papel para realizar os ccáculos. Os Rascunhos serão recolhidos pela professora após a quarentena! </p>
+    </div>
     <div>
         <form  action="">
             <fieldset>
@@ -22,8 +24,11 @@
                 <label for="">Digite uma senha para acessar os dados da pesquisa posteriormente: <br></label>
                 <input type="password" placeholder="Digite uma Senha">
             </fieldset>
-            <fieldset>
+            <fieldset class="mtm">
                 <legend>Matemática</legend>
+                <div class="img">
+                    <img class="cabecalho" src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-matematica-apresenta-quatro-areas-estudo-5790d9dcd0b56.jpg" alt=""><br>
+                </div>
                 <label for="">3 + 3 =</label>
                 <input type="text"><br>
                 <label for="">10 / 3 =</label>
@@ -32,10 +37,12 @@
                 <input type="text"><br>
                 <label for="customRange3" class="form-label">Essa tarefa foi difícil? </label> <input type="range" class="form-range" min="0" max="10" step="1" id="customRange3">
             </fieldset>
-            <fieldset>
+            <fieldset class="prt">
                 <legend>Portugês</legend>
-                <img class="cabecalho" src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-matematica-apresenta-quatro-areas-estudo-5790d9dcd0b56.jpg" alt="">
                     <div>
+                        <div class="img">
+                            <img class="cabecalho" src="https://fundacaotelefonicavivo.org.br/wp-content/uploads/2021/05/lingua-portuguesa-1200px-facebook.jpg" alt=""><br>
+                        </div>
                         <p for=""> Na frase: "Eu sou bonito" o sujeito é</p>
                         <input type="radio" id="brad" name="port1">
                         <label for="brad">Brad Pitt</label><br>
@@ -72,7 +79,9 @@
                 <p>Digite a sua opinião sobre a disciplina</p>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
             </fieldset>
-            <button type="submit">Gravar Resopostas</button>
+            <div class="botao-enviar">
+                <button type="submit">Gravar Resopostas</button>
+            </div>
         </form>
     </div>
     
