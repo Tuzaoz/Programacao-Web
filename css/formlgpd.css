@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat";
+
+}
+form{
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+h1{
+    text-align: center;
+    font-size: large;
+}
+ol{
+    text-align: end;
+}
+input[type="text"],input[type="number"], select,input[type="name"]{
+    resize: vertical;    
+    width: 75%;
+    padding: 12px;
+    margin-right: 30px;
+}
+input[type="checkbox"]
+
+label{
+    padding: 12px 12px 12px;
+    margin-right: 10px;
+
+}
+
+.btn{
+    text-align: center;
+}
+button{
+    font-size:medium;
+    color: white;
+    padding-inline: 40px;
+    padding-block: 10px;
+    border-radius: 10px;
+    background-color: rgb(63, 160, 84);
+    margin-top: 20px;
+}
+.lgpd{
+    font-size: small;
+}
