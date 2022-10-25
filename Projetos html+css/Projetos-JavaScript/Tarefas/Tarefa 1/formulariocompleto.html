@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="main.css">
+      <title>Formulário Completo</title>
+   </head>
+   <body>
+      <div class="form1">
+         <form id="form">
+            <label for=""> Seu Nome <br>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome" class="dadosInicia"></label>
+            <br>
+            <label for=""> Email <br>
+            <input type="text" name="email" id="email" placeholder="seuemail@email.com" class="dadosInicia"></label>
+            <br>
+            <label for=""> Telefone <br>
+            <input type="text" name="telefone" id="telefone" placeholder="(99)999999999" class="dadosInicia"></label>
+            <br>
+            <p> Selecione seu Cargo:</p>
+            <div style="display:inline-block; text-align: left">
+               <input type="checkbox" id="aluno" name="cargo" value="Aluno">
+               <label for="aluno"> Aluno</label><br>
+               <input type="checkbox" id="Professor" name="cargo" value="Professor">
+               <label for="Professor"> Professor</label><br>
+               <input type="checkbox" id="outros" name="cargo" value="Outros">
+               <label for="Outros"> Outros</label>
+               <p> Selecione seu Sexo:</p>
+               <input type="radio" id="masc" name="sexo" value="Masculino">
+               <label for="Masculino">Masculino</label><br>
+               <input type="radio" id="fem" name="sexo" value="Feminino">
+               <label for="Feminino">Feminino</label><br>
+               <input type="radio" id="sexoutros" name="sexo" value="sexOutros">
+               <label for="sexOutros">Outro</label>
+            </div>
+            <br>
+            <button type="button" class="grow" id="submit">enviar</button>
+            <p id="aviso"></p>
+         </form>
+      </div>
+      <output id="output"></output>
+   <script src="main.js"></script>
+   </body>
+</html>

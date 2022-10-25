@@ -1,0 +1,49 @@
+
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input{
+            margin-bottom: 10px;
+            border-radius: 4px;
+            display: inline-block;
+            padding: 12px;  
+        }
+        form{
+            background-color: lightgray;
+            padding-inline: 50px;
+            padding-block: 50px;
+            display: inline-block;
+            text-align: center;
+            margin-top: 100px;
+            border-style: solid;
+            border-width: medium;
+            border-radius: 20px;
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.563),0px 6px 20px 0px rgba(0, 0, 0, 0.563) ;
+            border-color: blue;
+        }   
+        input{
+            align-content: center;
+            
+        }
+        input:hover{
+            background-color: rgb(127, 127, 211);
+            color: rgb(255, 255, 255)
+        }
+        div.form1{
+            display: block;
+            text-align: center;
+        }
+        button{
+            font-size:medium;
+            color: white;
+            padding-inline: 40px;
+            padding-block: 10px;
+            border-radius: 10px;
+            background-color: orangered;
+            margin-top: 20px;
+        }
+        .grow { 
+            transition: all .2s ease-in-out; }
+        .grow:hover{ 
+            transform: scale(1.1); 
+        }
