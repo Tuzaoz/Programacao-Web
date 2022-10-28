@@ -596,3 +596,6 @@ a:hover figcaption { color: #056767; }
 @media (max-width: 380px) {
     .tm-person img { max-width: 120px; }
 }
+@media screen {
+    
+}
